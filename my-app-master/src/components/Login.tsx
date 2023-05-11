@@ -17,8 +17,8 @@ const Login = (props: LoginProps) => {
     return(
         <LoginContainer>
             <LoginHeader>Login</LoginHeader>
-            <LoginInput value={firstName} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFirstName(e.target.value)} placeholder='First Name' />;
-            <LoginInput value={lastName} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLastName(e.target.value)} placeholder='Last Name' />;
+            <LoginInput value={firstName} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFirstName(e.target.value)} placeholder='First Name' />
+            <LoginInput value={lastName} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLastName(e.target.value)} placeholder='Last Name' />
             <LoginButton onClick={handleLogin}>Login</LoginButton>
         </LoginContainer>
     )
